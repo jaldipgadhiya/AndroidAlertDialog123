@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@drawable/customborder"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#000000"
+        android:orientation="horizontal">
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_weight="1"
+        android:layout_height="30dp"
+        android:layout_marginLeft="5dp"
+        android:src="@drawable/banstop"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            android:text=" Confirm Delete..."/>
+    </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:background="#000000"
+            android:textSize="20sp"
+            android:text="  Are you sure you want delete this?"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="#ACACAC"
+            android:orientation="horizontal">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:id="@+id/btnYes"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:text="YES"
+                android:textSize="25sp"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnNo"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:text="NO"
+                android:textSize="25sp"/>
+        </LinearLayout>
+    </LinearLayout>
+    <!--EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Title"
+        android:id="@+id/etTitle"
+        android:textSize="20sp"/>
+    <EditText
+        android:id="@+id/etDesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etTitle"
+        android:hint="Description"
+        android:textSize="20sp"/>
+
+        <DatePicker
+            android:id="@+id/dtDueDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:calendarViewShown="false"
+            android:layout_below="@+id/etTitle"
+            android:layout_marginTop="50dp"
+            android:datePickerMode="spinner">
+        </DatePicker>
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/dtDueDate">
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:text="Save"
+            />
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:text="Cancel"
+            />
+
+    </LinearLayout-->
+
+
+
+</RelativeLayout>
